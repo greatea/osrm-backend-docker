@@ -36,7 +36,7 @@ RUN curl --silent -L https://github.com/Project-OSRM/osrm-backend/archive/v5.2.6
  && make \
  && mv /osrm-src/profiles/car.lua profile.lua \
  && mv /osrm-src/profiles/lib/ lib \
- && echo "disk=/tmp/stxxl,25000,syscall" > .stxxl \
+ && echo "disk=/tmp/stxxl,55000,syscall" > .stxxl \
  && rm -rf /osrm-src
 
 # Cleanup --------------------------------
