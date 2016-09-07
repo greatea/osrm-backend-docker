@@ -18,8 +18,8 @@ Open Source Routing Machine (OSRM) Docker Image [\[Docker Hub\]](https://hub.doc
   ```
   or you can clone & build:  
   ```
-  $ git clone https://github.com/cartography/osrm-backend-docker.git  
-  $ docker build -t="cartography/osrm-backend-docker" osrm-backend-docker/
+  $ git clone github.com/greatea/osrm-backend-docker.git  
+  $ docker build -t="leon/osrm-backend-docker" osrm-backend-docker/
   ```
 
 ## Usage
